@@ -1,0 +1,7 @@
+requests
+nltk
+spacy
+textblob
+pandas
+folium
+geopy
