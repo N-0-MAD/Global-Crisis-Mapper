@@ -35,7 +35,7 @@ def fetch_news(max_articles=500):
             for article in articles
         ])
 
-        print(f"✅ Fetched {len(news_list)} articles...")  # Debugging output
+        print(f"Fetched {len(news_list)} articles...")  # Debugging output
         page += 1
         time.sleep(1)  # Avoid rate limits
 
@@ -43,4 +43,4 @@ def fetch_news(max_articles=500):
 
 # Example usage
 news_list = fetch_news(500)
-print(f"✅ Total articles fetched: {len(news_list)}")
+print(f"Total articles fetched: {len(news_list)}")
